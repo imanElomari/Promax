@@ -1,0 +1,31 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Sound"
+						}
+					}
+				]
+			},
+			"price_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Commodo non ad aliqua culpa duis. Anim duis consectetur pariatur consequat elit irure ea. Ut ex aliquip tempor."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

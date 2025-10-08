@@ -1,0 +1,18 @@
+{
+  "id": "big_text_view",
+  "type": "SharedSlice",
+  "name": "BigTextView",
+  "description": "BigTextView",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}

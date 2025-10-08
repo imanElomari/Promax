@@ -1,0 +1,7 @@
+{
+  "repositoryName": "promax-app",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./src/slices"],
+  "localSliceSimulatorURL": "http://localhost:9999",
+  "apiEndpoint": "https://promax-app.prismic.io/api/v2"
+}
