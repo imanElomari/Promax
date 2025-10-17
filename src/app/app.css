@@ -70,9 +70,11 @@
      and to prevent flashes while styles/scripts initialize. Also disable any
      background transition so GSAP/JS changes don't animate unexpectedly. */
   html, body {
-    background-color: #FFD1C4 !important; /* final hero background */
+    /* final hero background — no !important so GSAP can animate this at runtime */
+    background-color: #FFD1C4;
     color: hsl(var(--foreground));
-    transition: none !important;
+    /* keep transitions off for the initial paint, but allow explicit JS changes */
+    transition: none;
   }
 
   body {

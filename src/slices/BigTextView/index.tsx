@@ -16,12 +16,13 @@ const BigText = ({ slice }: BigTextProps): JSX.Element => {
     <section
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="relative flex h-[60vh] md:h-[70vh] w-full flex-col items-center justify-center overflow-hidden bg-[#FFD1C4] text-[#1e1e1e] px-4"
+      /* reduced height: smaller hero block since it's only a sentence */
+      className="relative flex h-[28vh] md:h-[34vh] w-full flex-col items-center justify-center overflow-hidden bg-[#FFF7F3] text-[#555B6E] px-4"
     >
-      {/* Decorative subtle gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#FFE5DC] via-[#FFD1C4] to-[#FFC3AD] opacity-70" />
+      {/* subtle site-matching gradient overlay (warm, but more neutral) */}
+      <div className="absolute inset-0 bg-gradient-to-b bg-[#FFD1C4] opacity-80" />
 
-      {/* Text content */}
+      {/* Text content — slightly scaled down so it fits the shorter block */}
       <div className="relative z-10 text-center font-extrabold uppercase leading-[0.9]">
         <TrueFocus
           sentence={String(sentence)}

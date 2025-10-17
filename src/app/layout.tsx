@@ -28,7 +28,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="overflow-x-hidden bg-yellow-300">
+      <body className="overflow-x-hidden">
         <Header />
         <main>
           {children}

@@ -2,14 +2,13 @@
 
 import dynamic from "next/dynamic";
 
-// Export a `components` mapping for SliceZone. Keys must match the slice API IDs
-// defined in Prismic (e.g. "carousel", "big_text_view", "alternating_can", etc.).
-export const components: Record<string, any> = {
-  big_text_view: dynamic(() => import("./BigTextView"), { ssr: false }),
-  alternating_can: dynamic(() => import("./AlternatingCan"), { ssr: false }),
-  carousel: dynamic(() => import("./Carousel"), { ssr: false }), // 3D
-  // Add Gallery so SliceZone can render gallery slices
-  gallery: dynamic(() => import("./Gallery"), { ssr: false }),
-  sky_dive: dynamic(() => import("./SkyDive"), { ssr: false }),
-  hero: dynamic(() => import("./Hero"), { ssr: false }),
+export const components = {
+  about: dynamic(() => import("./About")),
+  alternating_can: dynamic(() => import("./AlternatingCan")),
+  big_text_view: dynamic(() => import("./BigTextView")),
+  carousel: dynamic(() => import("./Carousel")),
+  contact_us: dynamic(() => import("./ContactUs")),
+  gallery: dynamic(() => import("./Gallery")),
+  hero: dynamic(() => import("./Hero")),
+  sky_dive: dynamic(() => import("./SkyDive")),
 };

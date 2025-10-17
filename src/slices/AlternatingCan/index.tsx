@@ -25,7 +25,7 @@ const AlternatingCan = ({ slice }: AlternatingCanProps): JSX.Element => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="alternating-text-container relative bg-gray-300 text-sky-950"
+      className="alternating-text-container relative bg-[#FFE5D4] text-[#274690]"
     >
       <div>
         <div className="relative z-[100] grid">

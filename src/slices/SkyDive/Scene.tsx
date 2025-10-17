@@ -241,7 +241,7 @@ export default function SkyDive({ sentence, flavor }: SkyDiveProps) {
       </Clouds>
 
       <group ref={wordsRef}>
-        <ThreeText sentence={sentence} color="#F97315" />
+        <ThreeText sentence={sentence} color="#f16131" />
       </group>
 
       <ambientLight intensity={2} color="#9DDEFA" />
